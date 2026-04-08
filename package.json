@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'tests ok' && exit 0",
-    "build": "mkdir -p dist && echo 'build ok'"
+    "build": "mkdir dist & echo build ok > dist/index.html"
   },
   "keywords": [],
   "author": "",
