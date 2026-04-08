@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  "test": "echo 'tests ok' && exit 0",
-  "build": "if not exist dist mkdir dist && echo build ok > dist/index.html"
+"scripts": {
+  "test": "echo tests ok",
+  "build": "mkdir -p dist && echo 'build ok' > dist/index.html"
 },
   "keywords": [],
   "author": "",
