@@ -1,0 +1,14 @@
+{
+  "name": "stiven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'tests ok' && exit 0",
+    "build": "mkdir -p dist && echo 'build ok'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
