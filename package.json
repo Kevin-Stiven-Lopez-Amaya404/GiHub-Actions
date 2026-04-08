@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'tests ok' && exit 0",
-    "build": "mkdir dist & echo build ok > dist/index.html"
-  },
+  "test": "echo 'tests ok' && exit 0",
+  "build": "if not exist dist mkdir dist && echo build ok > dist/index.html"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
